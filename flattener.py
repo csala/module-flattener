@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-# Describe classes, methods and functions in a module.
-# Works with user-defined modules, all Python library
-# modules, including built-in modules.
+# Flatten python modules into a single .py file,
+# replacing import lines with the actual code of
+# the imported modules.
 from __future__ import absolute_import, print_function
 import os, sys, inspect, re, logging
 
